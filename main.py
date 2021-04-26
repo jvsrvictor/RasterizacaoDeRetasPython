@@ -3,6 +3,17 @@
 # IFCE - Instituto Federal de Educação, Ciência e Tecnologia do Ceará
 # Data de criação: 26/04/2021
 
+# D E S C R I Ç Ã O
+
+# Este algoritmo recebe três segmentos de reta
+# como entrada na forma de pontos iniciais e final,
+# onde as coordenadas estão normalizadas (entre 0 e 1).
+# O usuário recebe como resposta três imagens do tipo .png
+# de resoluções diferentes onde as retas estão desenhadas.
+# Os tamanhos das imagens e as cores dos segmentos de reta
+# podem ser alterados na função principal.
+
+
 # B I B L I O T E C A S
 
 # Responsável pelo sistema de matrizes
@@ -150,8 +161,8 @@ if __name__ == '__main__':
 
   # Define as matrizes e suas resoluções, no caso três
   matriz1 = definir_matriz(10,10)
-  matriz2 = definir_matriz(50,50)
-  matriz3 = definir_matriz(100,100)
+  matriz2 = definir_matriz(500,500)
+  matriz3 = definir_matriz(1000,1000)
 
   # Desenha as 3 retas nas 3 matrizes (100x100, 500x500, 1000x1000)
   for i in range(3):
