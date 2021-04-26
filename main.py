@@ -164,7 +164,7 @@ if __name__ == '__main__':
   matriz2 = definir_matriz(500,500)
   matriz3 = definir_matriz(1000,1000)
 
-  # Desenha as 3 retas nas 3 matrizes (100x100, 500x500, 1000x1000)
+  # Desenha as 3 retas nas 3 matrizes (10x10, 500x500, 1000x1000)
   for i in range(3):
     matriz1 = seg_retas[i].desenhaSegreta( matriz1 )
     matriz2 = seg_retas[i].desenhaSegreta( matriz2 )
