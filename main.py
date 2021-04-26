@@ -46,8 +46,8 @@ class segreta:
 
   def desenhaSegreta(self, matriz):
     # Determina as dimensões da matriz
-    matriz_altura = matriz.shape[0]
-    matriz_largura = matriz.shape[1]
+    matriz_altura = matriz.shape[0]-1
+    matriz_largura = matriz.shape[1]-1
 
     # Verifica a reta para escolher o método de varredura correto
     if( (self.Xi != self.Xf) and (self.Yi != self.Yf) ):
