@@ -26,15 +26,15 @@ import os
 
 # C L A S S E S
 
-#Classe referente ao segmento de reta
+# Classe referente ao segmento de reta
 class segreta:
-  #Coordenada do ponto inicial
+  # Coordenada do ponto inicial
   Xi = 0
   Yi = 0
-  #Coordenada do ponto final
+  # Coordenada do ponto final
   Xf = 0
   Yf = 0
-  #Id da reta é sua cor em RGB
+  # Id da reta é sua cor em RGB
   id = [3]
 
   def __init__(self, Xi, Yi, Xf, Yf, id):
